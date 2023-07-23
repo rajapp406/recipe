@@ -392,7 +392,8 @@
                 array( 'value'  => 'author', 'option' => true ),
                 array( 'value'  => 'date', 'option' => true ),
                 array( 'value'  => 'comments', 'option' => true ),
-                array( 'value'  => 'read-time', 'option' => true )
+                array( 'value'  => 'read-time', 'option' => true ),
+                array( 'value'  => 'star-rating', 'option' => true )
             ),
             'single_post_related_posts_option'  => true,
             'single_post_related_posts_title'   => esc_html__( 'Related News', 'newsmatic' ),

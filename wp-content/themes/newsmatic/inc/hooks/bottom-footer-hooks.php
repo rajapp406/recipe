@@ -52,7 +52,6 @@ use Newsmatic\CustomizerDefault as ND;
      ?>
         <div class="site-info">
             <?php echo wp_kses_post( str_replace( '%year%', date('Y'), $bottom_footer_site_info ) ); ?>
-				<?php echo sprintf( esc_html( 'Powered By %s.', 'newsmatic' ), '<a href="https://blazethemes.com/">' .esc_html( 'BlazeThemes' ). '</a>'  ); ?>
         </div>
      <?php
    }

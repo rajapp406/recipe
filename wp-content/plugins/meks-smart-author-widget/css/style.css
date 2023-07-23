@@ -1,8 +1,11 @@
 .mks_author_widget img{
-	float: left;
-	margin: 0 20px 0 0;
+height: 120px;
+width: 120px;
+border-radius: 50%;
 }
-
+.mks_author_widget {
+	text-align: center;
+}
 .mks_author_widget .mks_autor_link_wrap{ margin: 0; padding: 0;}
 .mks-co-authors-wrapper {
 	margin-bottom: 30px;

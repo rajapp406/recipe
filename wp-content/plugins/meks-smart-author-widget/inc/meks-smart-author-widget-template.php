@@ -24,11 +24,11 @@ if ( !empty($title) ) {
 <?php if($instance['display_avatar']) : ?>
 	<?php
 	 	if($instance['link_to_avatar']){
-	 		$pre_avatar = '<a href="'.$author_link.'">';
-	 		$post_avatar = '</a>';
+	 		$pre_avatar = '<figure><a href="'.$author_link.'">';
+	 		$post_avatar = '</a></figure>';
 	 	} else {
-	 		$pre_avatar = '';
-	 		$post_avatar = '';
+	 		$pre_avatar = '<figure>';
+	 		$post_avatar = '</figure>';
 	 	}
 			echo $pre_avatar. get_avatar( get_the_author_meta('ID', $user_id), $instance['avatar_size'] ) . $post_avatar;
 		?>

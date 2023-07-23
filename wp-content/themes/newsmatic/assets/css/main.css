@@ -394,7 +394,7 @@
 
 			--single-content-family: 'Inter', sans-serif;
 
-			--single-content-lineheight: 24px;
+			--single-content-lineheight: 1.6;
 			--single-content-lineheight-tab: 24px;
 			--single-content-lineheight-mobile: 22px;
 
@@ -4379,6 +4379,7 @@
 		    text-align: center;
 		    padding-top: 9px;
 		    top: -35px;
+			border: none;
 		}
 
 		.widget_newsmatic_popular_posts_widget .newsmatic_vertical_slider.no_heading_widget .popular-posts-wrap .slick-arrow {
